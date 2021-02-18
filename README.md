@@ -36,4 +36,5 @@ $ python Xls2Strings.py -f source/ -t output
 
 在output文件夹下可以找到相应的string文件
 
+参考三方：https://github.com/CatchZeng/Localizable.strings2Excel
 
