@@ -22,6 +22,11 @@ sudo python get-pip.py
 sudo pip install pyExcelerator
 ```
 
+### 3.安装 xlrd
+
+```
+sudo pip install xlrd
+```
 
 ## 使用说明
 
