@@ -27,7 +27,7 @@ sudo pip install pyExcelerator
 
 ### 将 **excel** 文件转换成 **iOS** strings 文件
 先将excel文档放入source目录内
-* excel格式要求A1无所谓什么，B1，C1，会影响输出string文件名称
+* excel格式要求：A1无所谓什么，B1，C1，会影响输出string文件名称
 
 cd到当前目录下执行
 ```
