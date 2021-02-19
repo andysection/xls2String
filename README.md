@@ -1,5 +1,5 @@
 
-# 支持将 **excel** 文件转换成 **iOS** strings 文件
+# 支持将 **excel** 文件 **iOS** strings 文件 互相转换
 
 
 ### 1.检查 pip(python 包管理器)
@@ -30,16 +30,26 @@ sudo pip install xlrd
 
 ## 使用说明
 
-### 将 **excel** 文件转换成 **iOS** strings 文件
+### 1 将 **excel** 文件转换成 **iOS** strings 文件
 先将excel文档放入source目录内
 * excel格式要求：A1无所谓什么，B1，C1，会影响输出string文件名称
 
 cd到当前目录下执行
 ```
-$ python Xls2Strings.py -f source/ -t output
+$ python python/Xls2Strings.py -f source/ -t output
 ```
 
 在output文件夹下可以找到相应的string文件
 
-参考三方：https://github.com/CatchZeng/Localizable.strings2Excel
 
+
+### 2 将 **iOS** strings 文件转换成 **excel** 文件
+先将.string文档放入source目录内(.string的文件名影响生成excel的B1名称)
+
+cd到当前目录下执行
+```
+$ python python/Strings2Xls.py -f source/ -t output
+```
+在output文件夹下可以找到相应的excel文件
+
+参考三方：https://github.com/CatchZeng/Localizable.strings2Excel
